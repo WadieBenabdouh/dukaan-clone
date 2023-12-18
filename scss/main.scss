@@ -8,35 +8,38 @@
 }
 
 // HEADER
-main{
+main {
     background: url('/img/banner-background.webp');
 
-  header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1em 1.5em;
-
-    img {
-        width: 8em
-    }
-
-    button {
-        background: none;
-        border: none;
-        outline: none;
+    header {
         display: flex;
-        flex-direction: column;
-        gap: 0.3em;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1em 1.5em;
 
-        span {
-            display: block;
-            background-color: #000000;
-            height: 2px;
-            width: 15px;
+        img {
+            width: 8em;
+        }
+
+        button {
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #4d4d4d5d;
+            border: none;
+            outline: none;
+            display: flex;
+            flex-direction: column;
+            gap: 0.3em;
+
+
+            span {
+                display: block;
+                background-color: #000000;
+                height: 2px;
+                width: 15px;
+            }
         }
     }
-}  
 }
 
 
