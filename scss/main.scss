@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,700;1,400;1,700&family=Outfit:wght@400;700&display=swap');
+
 *,
 ::before,
 ::after {
@@ -7,15 +9,22 @@
     list-style-type: none;
 }
 
-// HEADER
+body {
+    font-family: 'Archivo', sans-serif;
+}
+
+// MAIN
 main {
     background: url('/img/banner-background.webp');
+    display: flex;
+    flex-direction: column;
+    padding: 1em 1.5em;
+    gap: 4em;
 
     header {
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        padding: 1em 1.5em;
+        justify-content: space-between;        
 
         img {
             width: 8em;
@@ -30,6 +39,7 @@ main {
             display: flex;
             flex-direction: column;
             gap: 0.3em;
+            cursor: pointer;
 
 
             span {
@@ -40,8 +50,34 @@ main {
             }
         }
     }
+
+    aside{
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+
+
+        .heading{
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+            background-color: green;
+        }
+
+        form{
+            
+            label{
+                display: flex;
+                flex-direction: column;
+                gap: 0.2em;
+                font-size: 0.75em;
+
+                input{
+                    padding: 10px;
+                }
+            }
+        }
+    }
 }
 
-
-
-// HEADER END
+// MAIN END
