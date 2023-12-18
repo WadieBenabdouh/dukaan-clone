@@ -24,7 +24,7 @@ main {
     header {
         display: flex;
         align-items: center;
-        justify-content: space-between;        
+        justify-content: space-between;
 
         img {
             width: 8em;
@@ -51,32 +51,75 @@ main {
         }
     }
 
-    aside{
+    aside {
         display: flex;
         flex-direction: column;
-        gap: 2em;
+        gap: 5.5em;
 
-
-        .heading{
+        .left-side {
             display: flex;
             flex-direction: column;
-            gap: 1em;
-            background-color: green;
-        }
+            gap: 2em;
 
-        form{
-            
-            label{
+
+            .heading {
                 display: flex;
                 flex-direction: column;
-                gap: 0.2em;
-                font-size: 0.75em;
+                gap: 1em;
 
-                input{
-                    padding: 10px;
+                h1 {
+                    font-size: 2rem;
+                }
+
+                p {
+                    color: #525252;
+                    line-height: 1.5em;
+                }
+            }
+
+            form {
+                display: flex;
+                flex-direction: column;
+                gap: 2em;
+
+                label {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0.5em;
+                    font-size: 0.75em;
+
+                    input {
+                        padding: 15px;
+                        border: none;
+                        border-radius: 5px;
+
+
+                    }
+                }
+
+                button {
+                    border: none;
+                    padding: 1em;
+                    color: #fff;
+                    font-weight: bold;
+                    background-color: #146eb4;
+                    border-radius: 10px;
+
                 }
             }
         }
+
+        .right-side {
+            display: flex;
+
+            img {
+                max-width: 100%;
+                transform: scale(1.5);
+                position: relative;
+                left: 20%;
+            }
+        }
+
     }
 }
 
