@@ -93,7 +93,9 @@ main {
                         border: none;
                         border-radius: 5px;
 
-
+                        &:focus {
+                            outline: none;
+                        }
                     }
                 }
 
@@ -121,6 +123,7 @@ main {
         }
 
     }
+
 }
 
 // MAIN END
