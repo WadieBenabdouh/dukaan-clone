@@ -113,12 +113,13 @@ main {
 
         .right-side {
             display: flex;
+            overflow: hidden;
 
             img {
                 max-width: 100%;
                 transform: scale(1.5);
                 position: relative;
-                left: 20%;
+                left: 21%;
             }
         }
 
