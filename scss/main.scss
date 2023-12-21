@@ -186,10 +186,12 @@ main {
             .dropdown {
                 display: flex;
                 flex-direction: column;
+                gap: 1em;
 
                 .item {
                     display: flex;
                     align-items: center;
+                    gap: 1.5em;
 
                     img {
                         max-width: 2em;
