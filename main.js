@@ -1,5 +1,7 @@
 let mobileMenuBtn = document.getElementById("mobileMenuBtn");
 let mobileMenu = document.getElementById("mobileMenu");
+let age = 23;
+
 
 // Burger Menu Utilities
 mobileMenuBtn.onclick = () => {
@@ -10,7 +12,7 @@ mobileMenuBtn.onclick = () => {
 
 // Mobile Menu links
 let dropdownTitleOne = document.getElementById("dropdownTitleOne");
-let dropdownOne = document.getElementsById("dropdown-one");
+let dropdownOne = document.getElementById("dropdown-one");
 
 dropdownTitleOne.onclick = () => {
     dropdownOne.classList.toggle("is-called");
