@@ -170,7 +170,31 @@ main {
     img {
         width: 8em;
     }
+
+    nav {
+
+        ul{
+
+            li{
+                display: flex;
+                gap: 1em;
+
+                
+                .dropdown-one{
+                    display: flex;
+                    flex-direction: column;
+
+                    li{
+                        display: flex;
+                    }
+                }
+            }
+        }
+    }
 }
+
+
+
 
 .mobile-menu.is-active {
     display: block;
