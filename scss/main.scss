@@ -48,6 +48,18 @@ main {
                 height: 2px;
                 width: 15px;
             }
+            
+        }
+
+        button.is-active>:nth-child(1){
+            rotate: 125deg;
+            position: relative;
+            top: 0.15em;
+        }
+        button.is-active>:nth-child(2){
+            rotate: -125deg;
+            position: relative;
+            top: -0.25em;
         }
     }
 
@@ -126,5 +138,23 @@ main {
     }
 
 }
-
 // MAIN END
+
+// Mobile Menu
+.mobile-menu{
+    display: none;
+    position: absolute;
+    top: 0;
+    padding: 1em 1.5em;
+    background-color: #fff;
+    min-height: 100vh;
+
+    img{
+        width: 8em;
+    }
+}
+
+.mobile.is-active{
+    display: block;
+}
+// Mobile Menu End
