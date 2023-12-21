@@ -199,7 +199,7 @@ main {
                 }
             }
 
-            .dropdown.is-called{
+            .dropdown.is-called {
                 display: flex;
             }
         }
@@ -213,3 +213,26 @@ main {
 }
 
 // Mobile Menu End
+
+// SECTION - FASHION BRANDS
+section {
+    background-color: #525252;
+    padding: 1em 0em;
+    display: flex;
+    align-items: center;
+
+    .slider-container {
+        display: flex;
+        gap: 4em;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+
+        figure {
+            scroll-snap-align: start;
+        }
+    }
+
+
+}
+
+// SECTION - FASHION BRANDS END
