@@ -216,23 +216,26 @@ main {
 
 // SECTION - FASHION BRANDS
 section {
-    background-color: #525252;
+    background-color: rgb(77, 77, 77);
     padding: 1em 0em;
     display: flex;
     align-items: center;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
 
     .slider-container {
         display: flex;
-        gap: 4em;
-        overflow-x: scroll;
+        gap: 3em;
+        overflow-x: hidden;
         scroll-snap-type: x mandatory;
+        overflow-x: scroll;
+        scrollbar-color: #fff #fff;
 
         figure {
             scroll-snap-align: start;
+            padding: 1em;
         }
     }
-
-
 }
 
 // SECTION - FASHION BRANDS END
