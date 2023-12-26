@@ -36,6 +36,9 @@ let dropdownThree = document.getElementById("dropdown-three");
 dropdownTitleThree.onclick = () => {
     dropdownThree.classList.toggle("is-called");
 }
-
-
 // Mobile Menu link End
+
+// BRANDS AUTO SLIDER
+let clonedImages = document.querySelector(".brands-slider").cloneNode(true);
+document.querySelector(".brands").appendChild(clonedImages)
+// BRANDS AUTO SLIDER END
