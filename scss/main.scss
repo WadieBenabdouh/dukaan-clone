@@ -322,39 +322,45 @@ figure::after {
         }
     }
 }
+
 // ARTICLE PERKS END
 
 // SUMMARY - GRID SUPPORT
-summary{
+summary {
     display: flex;
     padding: 2em 1.5em;
     flex-direction: column;
     gap: 3em;
-    background-color: rgba(250,183,59,.1);
+    background-color: rgba(250, 183, 59, .1);
 
-    h3{
+    h3 {
         text-align: center;
     }
 
     .grid-benefits {
-         
-        .tile{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2em;
+
+        .tile {
             display: flex;
             flex-direction: column;
             align-items: center;
             gap: 1em;
             background-color: #fff;
             padding: 20px;
+            border-radius: 20px;
 
-            svg{
+            svg {
                 max-width: 4em;
             }
 
-            p{
+            p {
                 text-align: center;
                 color: gray;
             }
         }
     }
 }
+
 // SUMMARY - GRID SUPPORT END
