@@ -225,8 +225,6 @@ main {
     }
 }
 
-
-
 figure {
     overflow: hidden;
     background-color: rgb(36, 36, 36);
@@ -269,6 +267,60 @@ figure::after {
 
 // SECTION - FASHION BRANDS END
 
+
 // ARTICLE PERKS
+.solutions {
+    display: flex;
+    padding: 2em 1.5em;
+    flex-direction: column;
+    gap: 3em;
+
+    h2 {
+        text-align: center;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+
+        .perks {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1em;
+
+            .benefits {
+
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 2em;
+
+                    li {
+                        display: flex;
+                        align-items: center;
+                        gap: 1em;
+
+                        img {
+                            max-width: 1.5em;
+                        }
+
+                        p {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+
+        picture {
+
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+}
 
 // ARTICLE PERKS END
