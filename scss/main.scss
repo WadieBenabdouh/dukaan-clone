@@ -234,7 +234,7 @@ figure {
 
     .brands-slider {
         white-space: nowrap;
-        animation: 50s slide infinite linear;
+        animation: 40s slide infinite linear;
         display: inline-block;
 
         img {
@@ -273,7 +273,7 @@ figure::after {
     display: flex;
     padding: 2em 1.5em;
     flex-direction: column;
-    gap: 3em;
+    gap: 5em;
 
     h2 {
         text-align: center;
