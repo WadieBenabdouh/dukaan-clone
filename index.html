@@ -20,7 +20,7 @@
     <header>
       <img src="img/dukaan-header-logo.svg" alt="dukaan header logo">
       <!--  -->
-      <button id="mobileMenuBtn" class="navigation-toggle">
+      <button aria-label="navigation button" id="mobileMenuBtn" class="navigation-toggle">
         <span></span>
         <span></span>
       </button>
@@ -35,12 +35,12 @@
             guarantee.</p>
         </div>
 
-        <form action="">
+        <form role="form" action="">
           <label for="email">
             <input type="email" placeholder="Enter your email address" id="email">
             *No credit card is required to start your 7-day free trial.
           </label>
-          <button class="get-started">
+          <button aria-label="get started button" class="get-started">
             Get started
           </button>
         </form>
@@ -54,7 +54,7 @@
   </main>
 
   <!-- MOBILE NAV -->
-  <div id="mobileMenu" class="mobile-menu">
+  <div id="mobileMenu" class="mobile-menu" role="navigation">
     <div class="heading">
       <img src="/img/dukaan-header-logo.svg" alt="Dukaan mobile menu logo">
     </div>
@@ -130,7 +130,7 @@
   </div>
 
   <!-- FASHION BRANDS -->
-  <figure class="brands">
+  <figure role="presentation" class="brands">
     <div class="brands-slider">
       <img src="/img/sponsors/govo.svg" alt="">
       <img src="/img/sponsors/healthxp-image.svg" alt="">
@@ -147,7 +147,7 @@
   <!-- FASHION BRANDS END-->
 
   <!-- ARTICLE PERKS -->
-  <article class="solutions">
+  <article role="article" class="solutions">
     <h2>Startup or established, here's why Dukaan is your ideal e-commerce solution</h2>
     <!--  -->
     <div class="card card-one">
