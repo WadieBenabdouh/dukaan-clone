@@ -415,7 +415,10 @@ summary {
     }
 
 }
+// SECTION PLUGINS END
 
+
+// FEEDBACK
 .feedback{
     padding: 1em 1.5em;
     padding-top: 5em;
@@ -428,9 +431,23 @@ summary {
     .quotation-mark{
         max-width: 3em;
     }
-
+    
     h2, p{
         text-align: center;
     }
+
+    .testimoniial{
+        background-color: #f0eeee;
+        padding: 1em;
+        margin: 10px 0;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+
+        img{
+            max-width: 10em;
+        }
+    }
 }
-// SECTION PLUGINS EMD
+// FEEDBACK END
