@@ -366,21 +366,53 @@ summary {
 // SUMMARY - GRID SUPPORT END
 
 // SECTION PLUGINS
-.plugins{
+.plugins {
     padding: 1em 1.5em;
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    gap: 2em;
     align-items: center;
     background-color: #fff8eb;
 
-    h2, p{
+    h2,
+    p {
         text-align: center;
     }
 
-    p{
+    p {
         color: #525252;
     }
-    
+
+    .images-container {
+        padding-top: 3em;
+
+        .elevated-logos {
+            margin-bottom: 1.3em;
+        }
+
+
+        img {
+            max-width: 2.3em;
+            margin: 0 0.5em;
+            border-radius: 5px;
+        }
+
+
+
+    }
+
+    .take-a-look {
+        text-decoration: none;
+        color: #525252;
+        padding: 0.8em 1em;
+        border: solid 1px #525252;
+        border-radius: 10px;
+
+        &:hover {
+            background-color: #f5be6b;
+            color: #000;
+        }
+    }
+
 }
 // SECTION PLUGINS EMD
