@@ -415,4 +415,22 @@ summary {
     }
 
 }
+
+.feedback{
+    padding: 1em 1.5em;
+    padding-top: 5em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    background-color: #fff8eb;
+
+    .quotation-mark{
+        max-width: 3em;
+    }
+
+    h2, p{
+        text-align: center;
+    }
+}
 // SECTION PLUGINS EMD
