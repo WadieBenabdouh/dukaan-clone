@@ -448,10 +448,8 @@ summary {
             display: inline-block;
             scroll-snap-align: start;
 
-
-
             .testimonial {
-                background-color: #146eb43d;
+                background-color: rgba(20, 110, 180, 0.2392156863);
                 padding: 1.5em;
                 margin: 10px 0;
                 border-radius: 20px;
@@ -459,7 +457,6 @@ summary {
                 flex-direction: column;
                 gap: 2em;
                 align-items: flex-start;
-
 
                 h3 {
                     font-size: 0.9rem;
@@ -495,15 +492,8 @@ summary {
                         }
                     }
                 }
-
-
             }
         }
-
-
-
-
-
     }
 
 
