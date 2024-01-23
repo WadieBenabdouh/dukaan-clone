@@ -439,51 +439,70 @@ summary {
     }
 
     .testimonials-slider {
-        .testimonial {
-            background-color: #f0eeee;
-            padding: 1em;
-            margin: 10px 0;
-            border-radius: 20px;
-            display: flex;
-            flex-direction: column;
-            gap: 2em;
-            align-items: flex-start;
+        display: block;
+        overflow-x: scroll;
+        white-space: nowrap;
+        width: 100%;
 
-            h3 {
-                font-size: 0.9rem;
-            }
+        .testimonial-wrapper {
+            display: inline-block;
+            margin: 0 0.5em;
 
-            img {
-                max-width: 4em;
-            }
 
-            p {
-                font-size: 0.9rem;
-                line-height: 1.5em;
-                text-align: start;
-                color: #525252;
-            }
-
-            .avatar {
+            .testimonial {
+                background-color: #f0eeee;
+                padding: 1.5em;
+                margin: 10px 0;
+                border-radius: 20px;
                 display: flex;
-                align-items: center;
-                gap: 1em;
+                flex-direction: column;
+                gap: 2em;
+                align-items: flex-start;
+                height: 25em;
+
+
+                h3 {
+                    font-size: 0.9rem;
+                }
 
                 img {
-                    max-width: 2em;
-                    border-radius: 50px;
+                    max-width: 4em;
                 }
 
-                .info {
+                p {
+                    font-size: 0.9rem;
+                    line-height: 1.5em;
+                    text-align: start;
+                    color: #525252;
+                    white-space: normal;
+                }
 
-                    p {
-                        color: #525252;
+                .avatar {
+                    display: flex;
+                    align-items: center;
+                    gap: 1em;
+
+                    img {
+                        max-width: 2em;
+                        border-radius: 50px;
+                    }
+
+                    .info {
+
+                        p {
+                            color: #525252;
+                        }
                     }
                 }
+
+
             }
-
-
         }
+
+
+
+
+
     }
 
 
