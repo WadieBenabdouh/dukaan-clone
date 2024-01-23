@@ -428,6 +428,7 @@ summary {
     gap: 1em;
     align-items: center;
     background-color: #fff8eb;
+    overflow-x: hidden;
 
     .quotation-mark {
         max-width: 3em;
@@ -439,14 +440,15 @@ summary {
     }
 
     .testimonials-slider {
-        overflow-x: scroll;
+
         white-space: nowrap;
-        width: 100%;
+        width: 500%;
         scroll-snap-type: x mandatory;
 
         .testimonial-wrapper {
             display: inline-block;
             scroll-snap-align: start;
+            width: 20%;
 
             .testimonial {
                 background-color: rgba(20, 110, 180, 0.2392156863);
@@ -457,6 +459,7 @@ summary {
                 flex-direction: column;
                 gap: 2em;
                 align-items: flex-start;
+                width: 100%;
 
                 h3 {
                     font-size: 0.9rem;
