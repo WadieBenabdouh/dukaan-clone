@@ -415,11 +415,12 @@ summary {
     }
 
 }
+
 // SECTION PLUGINS END
 
 
 // FEEDBACK
-.feedback{
+.feedback {
     padding: 1em 1.5em;
     padding-top: 5em;
     display: flex;
@@ -428,32 +429,60 @@ summary {
     align-items: center;
     background-color: #fff8eb;
 
-    .quotation-mark{
+    .quotation-mark {
         max-width: 3em;
     }
-    
-    h2, p{
+
+    h2,
+    p {
         text-align: center;
     }
 
-    .testimonial{
+    .testimonial {
         background-color: #f0eeee;
         padding: 1em;
         margin: 10px 0;
-        border-radius: 10px;
+        border-radius: 20px;
         display: flex;
         flex-direction: column;
         gap: 2em;
         align-items: flex-start;
 
-        img{
-            max-width: 3em;
+        h3 {
+            font-size: 0.9rem;
         }
 
-        p{
+        img {
+            max-width: 4em;
+        }
+
+        p {
             font-size: 0.9rem;
             line-height: 1.5em;
+            text-align: start;
+            color: #525252;
         }
+
+        .avatar {
+            display: flex;
+            align-items: center;
+            gap: 1em;
+
+            img {
+                max-width: 2em;
+                border-radius: 50px;
+            }
+
+            .info {
+
+                p {
+                    color: #525252;
+                }
+            }
+        }
+
+
     }
 }
+
 // FEEDBACK END
