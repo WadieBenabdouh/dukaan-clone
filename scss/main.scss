@@ -440,14 +440,18 @@ summary {
     }
 
     .testimonials-slider {
-
         white-space: nowrap;
         width: 500%;
-        scroll-snap-type: x mandatory;
+        // scroll-snap-type: x mandatory;
+
+        #testimonial-one-pusher {
+            margin-left: 40%;
+        }
 
         .testimonial-wrapper {
             display: inline-block;
-            scroll-snap-align: start;
+            // scroll-snap-align: start;
+            transition: 0.3s;
             width: 20%;
 
             .testimonial {
@@ -500,6 +504,23 @@ summary {
     }
 
 
+}
+
+.dots-controls {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    font-size: .6em;
+    padding-bottom: 2em;
+
+    i {
+        color: #000;
+
+        &:hover {
+            font-weight: bold;
+            cursor: pointer;
+        }
+    }
 }
 
 // FEEDBACK END
