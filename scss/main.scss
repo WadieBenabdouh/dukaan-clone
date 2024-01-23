@@ -509,12 +509,15 @@ summary {
 .dots-controls {
     display: flex;
     justify-content: center;
-    gap: 1em;
+    padding: 1em;
+    gap: 4em;
+    border-radius: 30px;
+    width: 100%;
     font-size: .6em;
-    padding-bottom: 2em;
 
     i {
         color: #000;
+        font-size: 1.2em;
 
         &:hover {
             font-weight: bold;
