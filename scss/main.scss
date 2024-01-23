@@ -439,17 +439,19 @@ summary {
     }
 
     .testimonials-slider {
-        display: block;
         overflow-x: scroll;
         white-space: nowrap;
         width: 100%;
+        scroll-snap-type: x mandatory;
 
         .testimonial-wrapper {
             display: inline-block;
-            margin: 0 0.5em;
+            scroll-snap-align: start;
+
+
 
             .testimonial {
-                background-color: #f0eeee;
+                background-color: #dad7d7;
                 padding: 1.5em;
                 margin: 10px 0;
                 border-radius: 20px;
